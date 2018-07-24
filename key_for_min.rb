@@ -5,8 +5,10 @@ def key_for_min_value(name_hash)
    minKey = ''
 
    name_hash.each do |key, value|
-     min = name_hash[key][0]
-
+     if not defined min
+       min = value
+     end
+     
      if value < min
        puts min = value
        puts minKey = key
