@@ -13,14 +13,7 @@ def key_for_min_value(name_hash)
      if value < min
          min = value
          minKey = key
-     else
-         minKey = key
      end
-
-     if value > min || value == min
-       puts "I ran this #{min} #{value}"
-     end
-   end
 
    puts minKey
 end
