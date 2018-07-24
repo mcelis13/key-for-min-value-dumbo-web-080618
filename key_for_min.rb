@@ -13,6 +13,8 @@ def key_for_min_value(name_hash)
      if value < min
          puts min = value
          puts minKey = key
+     else
+         minKey = key
      end
 
      if value > min || value == min
