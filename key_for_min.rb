@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
      end
 
      if value > min || value == min
-       puts 'I ran this' + min + value
+       puts "I ran this #{min} #{value}"
      end
    end
 
