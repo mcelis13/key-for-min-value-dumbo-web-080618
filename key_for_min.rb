@@ -9,9 +9,14 @@ def key_for_min_value(name_hash)
      if min == nil
        min = value
      end
+
      if value < min
          puts min = value
          puts minKey = key
+     end
+
+     if value > min || value == min
+       puts 'I ran this'
      end
    end
 
