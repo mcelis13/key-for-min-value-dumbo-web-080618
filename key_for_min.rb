@@ -11,7 +11,6 @@ def key_for_min_value(name_hash)
      elsif value < min
          puts min = value
          puts minKey = key
-       end
      end
    end
 
