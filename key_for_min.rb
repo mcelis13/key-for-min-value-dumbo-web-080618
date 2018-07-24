@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
      if min == nil
        min = value
      else
+       puts min
        if value < min
          puts min = value
          puts minKey = key
