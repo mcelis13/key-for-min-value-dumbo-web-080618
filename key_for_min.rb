@@ -5,12 +5,12 @@ def key_for_min_value(name_hash)
    minKey = ''
 
    name_hash.each do |key, value|
-     if min == undefined
-       min = value
+     if minimum == undefined
+       minimum = value
      end
 
-     if value < min
-       puts min = value
+     if value < mininum
+       puts minimum = value
        puts minKey = key
      end
 
