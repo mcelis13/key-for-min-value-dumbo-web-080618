@@ -4,10 +4,10 @@
 def key_for_min_value(name_hash)
    minKey = ''
    min = nil
-   puts min
+
    name_hash.each do |key, value|
      puts min
-     if min == nil
+     if min === nil
        min = value
      else
        puts min
