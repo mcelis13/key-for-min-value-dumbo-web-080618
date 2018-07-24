@@ -3,9 +3,9 @@
 
 def key_for_min_value(name_hash)
    minKey = ''
-   min = name_hash[0]
 
    name_hash.each do |key, value|
+     min = name_hash[key][0]
 
      if value < min
        puts min = value
