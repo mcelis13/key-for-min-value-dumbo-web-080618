@@ -3,10 +3,10 @@
 
 def key_for_min_value(name_hash)
    minKey = ''
-
+   min = nil
 
    name_hash.each do |key, value|
-            puts (next key)
+
    end
 
    minKey
