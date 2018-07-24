@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
    minKey = ''
    min
-   
+
    name_hash.each do |key, value|
-     if not defined min
+     if min == undefined
        min = value
      end
 
