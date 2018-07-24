@@ -18,6 +18,6 @@ def key_for_min_value(name_hash)
 
    puts minKey
 end
+hash = {:blake => 10, :ashley => 50, :adam => 17}
 
-hash = {:blake => 500, :ashley => 2, :adam => 1}
 key_for_min_value(hash)
